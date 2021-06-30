@@ -1,0 +1,28 @@
+{
+	"name":"completesolar/mvc",
+	"description":"Base MVC classes of Complete Solar Solution",
+	"keywords": ["MVC"],
+	"homepage": "http://completesolar.com",
+	"type":"library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Alan Anderson",
+			"email": "aanderson@completesolar.com",
+			"homepage":"http://completesolar.com"
+		},
+		{
+			"name": "Chris Allen",
+			"email": "callen@completesolar.com",
+			"homepage":"http://completesolar.com"
+		}
+	],
+	"require": {
+	
+	},
+	"autoload":{
+		"psr-4" : {
+			"CompleteSolar\\MVC\\":"src/"
+		}
+	}
+}
